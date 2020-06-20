@@ -7,10 +7,9 @@ My fluxcd config is here: https://github.com/ulrikjohansson/flux-homelab-cluster
 ```
 # Install microk8s, writes a "~/.kube/microk8s.config" file, and bootstraps fluxcd
 ./install.sh <ssh address>
-
-# Set up access to the flux github repo, by setting a deploy key
-Instructions here: https://docs.fluxcd.io/en/1.19.0/tutorials/get-started-kustomize/#setup-github-write-access
 ```
+Set up access to the flux github repo, by setting a deploy key
+Instructions here: https://docs.fluxcd.io/en/1.19.0/tutorials/get-started-kustomize/#setup-github-write-access
 
 ### Remove
 ```
